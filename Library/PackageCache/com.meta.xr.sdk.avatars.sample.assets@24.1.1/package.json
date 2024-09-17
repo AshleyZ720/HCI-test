@@ -1,0 +1,26 @@
+{
+  "name": "com.meta.xr.sdk.avatars.sample.assets",
+  "displayName": "Meta Avatars SDK Sample Assets",
+  "version": "24.1.1",
+  "description": "Collection of packaged avatar presets for quick iteration used by the Meta Avatars SDK package samples and available for developers to use in their apps.",
+  "unity": "2021.3",
+  "keywords": [
+    "Meta",
+    "Avatars",
+    "SDK",
+    "SampleAssets",
+    "Assets"
+  ],
+  "dependencies": {
+    "com.meta.xr.sdk.avatars": "24.1.1"
+  },
+  "unityRelease": "29f1",
+  "author": {
+    "name": "Meta Platforms, Inc.",
+    "url": "https://developer.oculus.com/"
+  },
+  "documentationUrl": "https://developer.oculus.com/downloads/package/meta-avatars-sdk",
+  "changelogUrl": "https://developer.oculus.com/downloads/package/meta-avatars-sdk",
+  "licensesUrl": "https://developer.oculus.com/licenses",
+  "licenseMessage": "By adding or using this package you agree to the terms and conditions of the Meta Platforms Technologies SDK License Agreement: https://developer.oculus.com/licenses"
+}

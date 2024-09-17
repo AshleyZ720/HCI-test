@@ -1,0 +1,2355 @@
+﻿<Project ToolsVersion="Current">
+  <!-- Generated file, do not modify, your changes will be overwritten (use AssetPostprocessor.OnGeneratedCSProject) -->
+  <PropertyGroup>
+    <BaseIntermediateOutputPath>Temp\obj\$(Configuration)\$(MSBuildProjectName)</BaseIntermediateOutputPath>
+    <IntermediateOutputPath>$(BaseIntermediateOutputPath)</IntermediateOutputPath>
+  </PropertyGroup>
+  <Import Project="Sdk.props" Sdk="Microsoft.NET.Sdk" />
+  <ItemGroup>
+    <ProjectCapability Include="Unity" />
+  </ItemGroup>
+  <PropertyGroup>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <EnableDefaultItems>false</EnableDefaultItems>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <LangVersion>9.0</LangVersion>
+    <Configurations>Debug;Release</Configurations>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <RootNamespace></RootNamespace>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Oculus.Interaction</AssemblyName>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>UNITY_2022_3_39;UNITY_2022_3;UNITY_2022;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;ENABLE_NAVIGATION_PACKAGE_DEBUG_VISUALIZATION;ENABLE_NAVIGATION_HEIGHTMESH_RUNTIME_SUPPORT;ENABLE_NAVIGATION_UI_REQUIRES_PACKAGE;PLATFORM_ANDROID;TEXTCORE_1_0_OR_NEWER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;ENABLE_ETC_COMPRESSION;PLATFORM_EXTENDS_VULKAN_DEVICE;PLATFORM_HAS_MULTIPLE_SWAPCHAINS;UNITY_ANDROID_SUPPORTS_SHADOWFILES;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;OVRAVATAR_LOG_ENABLE_CONDITIONAL;OVRAVATAR_ASSERT_ENABLE_CONDITIONAL;FUSION_WEAVER;FUSION2;READY_PLAYER_ME;OVR_UNITY_PACKAGE_MANAGER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169;USG0001</NoWarn>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169;USG0001</NoWarn>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoStandardLibraries>true</NoStandardLibraries>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <DisableImplicitFrameworkReferences>true</DisableImplicitFrameworkReferences>
+    <MSBuildWarningsAsMessages>MSB3277</MSBuildWarningsAsMessages>
+  </PropertyGroup>
+  <PropertyGroup>
+    <UnityProjectGenerator>Package</UnityProjectGenerator>
+    <UnityProjectGeneratorVersion>2.0.22</UnityProjectGeneratorVersion>
+    <UnityProjectGeneratorStyle>SDK</UnityProjectGeneratorStyle>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>Android:13</UnityBuildTarget>
+    <UnityVersion>2022.3.39f1</UnityVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Analyzer Include="C:\Users\THINKPAD\.vscode\extensions\visualstudiotoolsforunity.vstuc-1.0.3\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
+    <Analyzer Include="D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\PoseDetection\IFeatureThresholds.cs">
+      <Link>Runtime\Scripts\PoseDetection\IFeatureThresholds.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\PoseDetection\FingerFeatureStateThresholds.cs">
+      <Link>Runtime\Scripts\PoseDetection\FingerFeatureStateThresholds.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\PoseDetection\JointVelocityActiveState.cs">
+      <Link>Runtime\Scripts\PoseDetection\JointVelocityActiveState.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Movements\FollowTargetProvider.cs">
+      <Link>Runtime\Scripts\Movements\FollowTargetProvider.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Selection\Hands\ConicalFrustum.cs">
+      <Link>Runtime\Scripts\Selection\Hands\ConicalFrustum.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\MaterialProperties\DotGridProperties.cs">
+      <Link>Runtime\Scripts\MaterialProperties\DotGridProperties.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Models\UseGrab\IFingerUseAPI.cs">
+      <Link>Runtime\Scripts\Interaction\Models\UseGrab\IFingerUseAPI.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\PoseDetection\TransformRecognizerActiveState.cs">
+      <Link>Runtime\Scripts\PoseDetection\TransformRecognizerActiveState.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Models\HandGrab\HandGrabInteractableDataCollection.cs">
+      <Link>Runtime\Scripts\Interaction\Models\HandGrab\HandGrabInteractableDataCollection.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Input\IAxis2D.cs">
+      <Link>Runtime\Scripts\Input\IAxis2D.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Models\Grab\GrabInteractor.cs">
+      <Link>Runtime\Scripts\Interaction\Models\Grab\GrabInteractor.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Models\Locomotion\LocomotionEventsConnection.cs">
+      <Link>Runtime\Scripts\Interaction\Models\Locomotion\LocomotionEventsConnection.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Core\HandActiveState.cs">
+      <Link>Runtime\Scripts\Interaction\Core\HandActiveState.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Body\PoseDetection\BodyPoseData.cs">
+      <Link>Runtime\Scripts\Body\PoseDetection\BodyPoseData.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Models\Poke\Visuals\PokeInteractableVisual.cs">
+      <Link>Runtime\Scripts\Interaction\Models\Poke\Visuals\PokeInteractableVisual.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Selection\Controllers\ControllerSelector.cs">
+      <Link>Runtime\Scripts\Selection\Controllers\ControllerSelector.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Unity\Input\InputButton.cs">
+      <Link>Runtime\Scripts\Unity\Input\InputButton.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Unity\InteractableUnityEventWrapper.cs">
+      <Link>Runtime\Scripts\Unity\InteractableUnityEventWrapper.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Core\VirtualActiveState.cs">
+      <Link>Runtime\Scripts\Interaction\Core\VirtualActiveState.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Pointable\IPointableCanvas.cs">
+      <Link>Runtime\Scripts\Interaction\Pointable\IPointableCanvas.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Grabbable\OneGrabPhysicsJointTransformer.cs">
+      <Link>Runtime\Scripts\Interaction\Grabbable\OneGrabPhysicsJointTransformer.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Grab\SnapSurfaces\SphereGrabSurface.cs">
+      <Link>Runtime\Scripts\Grab\SnapSurfaces\SphereGrabSurface.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Models\Snap\ListLayout.cs">
+      <Link>Runtime\Scripts\Interaction\Models\Snap\ListLayout.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Models\Grab\GrabInteractable.cs">
+      <Link>Runtime\Scripts\Interaction\Models\Grab\GrabInteractable.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Input\HMD\HmdDataAsset.cs">
+      <Link>Runtime\Scripts\Input\HMD\HmdDataAsset.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Core\IActiveState.cs">
+      <Link>Runtime\Scripts\Interaction\Core\IActiveState.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Unity\UnityCanvas\CanvasMesh.cs">
+      <Link>Runtime\Scripts\Unity\UnityCanvas\CanvasMesh.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\ThirdParty\LeapMotion\VelocityCalculatorUtilMethods.cs">
+      <Link>Runtime\ThirdParty\LeapMotion\VelocityCalculatorUtilMethods.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Body\Input\BodyPrimitives.cs">
+      <Link>Runtime\Scripts\Body\Input\BodyPrimitives.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Utils\DeprecatedPrefab.cs">
+      <Link>Runtime\Scripts\Utils\DeprecatedPrefab.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Models\UseGrab\UseFingerCurlAPI.cs">
+      <Link>Runtime\Scripts\Interaction\Models\UseGrab\UseFingerCurlAPI.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Grab\SnapSurfaces\BoxGrabSurface.cs">
+      <Link>Runtime\Scripts\Grab\SnapSurfaces\BoxGrabSurface.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Input\HMD\IHmd.cs">
+      <Link>Runtime\Scripts\Input\HMD\IHmd.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Models\Ray\Visuals\ControllerRayVisual.cs">
+      <Link>Runtime\Scripts\Interaction\Models\Ray\Visuals\ControllerRayVisual.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Input\Hands\DataModifiers\SyntheticHand.cs">
+      <Link>Runtime\Scripts\Input\Hands\DataModifiers\SyntheticHand.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Input\Hands\DataModifiers\FixedScaleHand.cs">
+      <Link>Runtime\Scripts\Input\Hands\DataModifiers\FixedScaleHand.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Core\Base\InteractorGroup.cs">
+      <Link>Runtime\Scripts\Interaction\Core\Base\InteractorGroup.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\PoseDetection\Debug\FingerFeatureSkeletalDebugVisual.cs">
+      <Link>Runtime\Scripts\PoseDetection\Debug\FingerFeatureSkeletalDebugVisual.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\PoseDetection\JointRotationActiveState.cs">
+      <Link>Runtime\Scripts\PoseDetection\JointRotationActiveState.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Input\PoseOrigin.cs">
+      <Link>Runtime\Scripts\Input\PoseOrigin.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Core\GameObjectActiveState.cs">
+      <Link>Runtime\Scripts\Interaction\Core\GameObjectActiveState.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Core\UpdateDriverGroup.cs">
+      <Link>Runtime\Scripts\Interaction\Core\UpdateDriverGroup.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Unity\UnityCanvas\CanvasRect.cs">
+      <Link>Runtime\Scripts\Unity\UnityCanvas\CanvasRect.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Visuals\InteractorGroupNodeUI.cs">
+      <Link>Runtime\Scripts\Interaction\Visuals\InteractorGroupNodeUI.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Models\TouchHandGrab\TouchHandGrabInteractable.cs">
+      <Link>Runtime\Scripts\Interaction\Models\TouchHandGrab\TouchHandGrabInteractable.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Collisions\ClosestPointToColliders.cs">
+      <Link>Runtime\Scripts\Collisions\ClosestPointToColliders.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Models\UseGrab\HandGrabUseInteractor.cs">
+      <Link>Runtime\Scripts\Interaction\Models\UseGrab\HandGrabUseInteractor.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Input\Hands\JointsRadiusFeature.cs">
+      <Link>Runtime\Scripts\Input\Hands\JointsRadiusFeature.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Core\IEvent.cs">
+      <Link>Runtime\Scripts\Interaction\Core\IEvent.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\PoseDetection\Debug\HandShapeSkeletalDebugVisual.cs">
+      <Link>Runtime\Scripts\PoseDetection\Debug\HandShapeSkeletalDebugVisual.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Utils\MonoBehaviourEndOfFrameExtensions.cs">
+      <Link>Runtime\Scripts\Utils\MonoBehaviourEndOfFrameExtensions.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Grabbable\FloatConstraint.cs">
+      <Link>Runtime\Scripts\Interaction\Grabbable\FloatConstraint.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Core\Interactor.cs">
+      <Link>Runtime\Scripts\Interaction\Core\Interactor.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Core\InteractorActiveState.cs">
+      <Link>Runtime\Scripts\Interaction\Core\InteractorActiveState.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Input\OneEuroFilter\IOneEuroFilter.cs">
+      <Link>Runtime\Scripts\Input\OneEuroFilter\IOneEuroFilter.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Unity\Input\InputMouseButton.cs">
+      <Link>Runtime\Scripts\Unity\Input\InputMouseButton.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Core\CandidatePositionComparer.cs">
+      <Link>Runtime\Scripts\Interaction\Core\CandidatePositionComparer.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Core\ICandidateComparer.cs">
+      <Link>Runtime\Scripts\Interaction\Core\ICandidateComparer.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Models\Snap\SnapInteractable.cs">
+      <Link>Runtime\Scripts\Interaction\Models\Snap\SnapInteractable.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Attributes\HelpBoxAttribute.cs">
+      <Link>Runtime\Scripts\Attributes\HelpBoxAttribute.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Body\SkeletonDebugGizmos.cs">
+      <Link>Runtime\Scripts\Body\SkeletonDebugGizmos.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Input\Controllers\ControllerPrimitives.cs">
+      <Link>Runtime\Scripts\Input\Controllers\ControllerPrimitives.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Input\Hands\HandRef.cs">
+      <Link>Runtime\Scripts\Input\Hands\HandRef.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Visuals\DebugTree.cs">
+      <Link>Runtime\Scripts\Interaction\Visuals\DebugTree.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Input\OneEuroFilter\OneEuroFilterMulti.cs">
+      <Link>Runtime\Scripts\Input\OneEuroFilter\OneEuroFilterMulti.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\PoseDetection\IFeatureStateThresholds.cs">
+      <Link>Runtime\Scripts\PoseDetection\IFeatureStateThresholds.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Unity\UnityInfo.cs">
+      <Link>Runtime\Scripts\Unity\UnityInfo.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\PoseDetection\Debug\TransformFeatureVectorDebugParentVisual.cs">
+      <Link>Runtime\Scripts\PoseDetection\Debug\TransformFeatureVectorDebugParentVisual.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Attributes\InspectorButton.cs">
+      <Link>Runtime\Scripts\Attributes\InspectorButton.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Movements\AutoMoveTowardsTargetProvider.cs">
+      <Link>Runtime\Scripts\Movements\AutoMoveTowardsTargetProvider.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\PoseDetection\Debug\FingerFeatureDebugVisual.cs">
+      <Link>Runtime\Scripts\PoseDetection\Debug\FingerFeatureDebugVisual.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Models\Locomotion\Teleport\Visuals\PinchPointerVisual.cs">
+      <Link>Runtime\Scripts\Interaction\Models\Locomotion\Teleport\Visuals\PinchPointerVisual.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Input\Hands\HandPrimitives.cs">
+      <Link>Runtime\Scripts\Input\Hands\HandPrimitives.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Models\Locomotion\Turn\LocomotionAxisTurnerInteractor.cs">
+      <Link>Runtime\Scripts\Interaction\Models\Locomotion\Turn\LocomotionAxisTurnerInteractor.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Selection\Hands\IndexPinchSafeReleaseSelector.cs">
+      <Link>Runtime\Scripts\Selection\Hands\IndexPinchSafeReleaseSelector.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Grabbable\ITransformer.cs">
+      <Link>Runtime\Scripts\Interaction\Grabbable\ITransformer.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Body\PoseDetection\PoseFromBody.cs">
+      <Link>Runtime\Scripts\Body\PoseDetection\PoseFromBody.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Visuals\InteractableDebugVisual.cs">
+      <Link>Runtime\Scripts\Interaction\Visuals\InteractableDebugVisual.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Surfaces\ColliderSurface.cs">
+      <Link>Runtime\Scripts\Interaction\Surfaces\ColliderSurface.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\DistanceGrab\Visuals\IReticleData.cs">
+      <Link>Runtime\Scripts\DistanceGrab\Visuals\IReticleData.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Core\Interactable.cs">
+      <Link>Runtime\Scripts\Interaction\Core\Interactable.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Input\Hands\FromHandPrefabDataSource.cs">
+      <Link>Runtime\Scripts\Input\Hands\FromHandPrefabDataSource.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Models\Locomotion\Teleport\Visuals\TeleportProceduralArcVisual.cs">
+      <Link>Runtime\Scripts\Interaction\Models\Locomotion\Teleport\Visuals\TeleportProceduralArcVisual.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Models\Locomotion\Turn\LocomotionTurnerInteractorEventsWrapper.cs">
+      <Link>Runtime\Scripts\Interaction\Models\Locomotion\Turn\LocomotionTurnerInteractorEventsWrapper.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Models\Ray\Visuals\RayInteractorPinchVisual.cs">
+      <Link>Runtime\Scripts\Interaction\Models\Ray\Visuals\RayInteractorPinchVisual.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Core\InteractableGroupView.cs">
+      <Link>Runtime\Scripts\Interaction\Core\InteractableGroupView.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\MaterialProperties\RoundedBoxProperties.cs">
+      <Link>Runtime\Scripts\MaterialProperties\RoundedBoxProperties.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Selection\Virtual\VirtualSelector.cs">
+      <Link>Runtime\Scripts\Selection\Virtual\VirtualSelector.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Models\DistanceGrab\DistantCandidateComputer.cs">
+      <Link>Runtime\Scripts\Interaction\Models\DistanceGrab\DistantCandidateComputer.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Surfaces\ClippedCylinderSurface.cs">
+      <Link>Runtime\Scripts\Interaction\Surfaces\ClippedCylinderSurface.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Input\Hands\IHand.cs">
+      <Link>Runtime\Scripts\Input\Hands\IHand.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Models\Locomotion\PlayerLocomotor.cs">
+      <Link>Runtime\Scripts\Interaction\Models\Locomotion\PlayerLocomotor.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\DistanceGrab\Visuals\DistantInteractionTubeVisual.cs">
+      <Link>Runtime\Scripts\DistanceGrab\Visuals\DistantInteractionTubeVisual.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Selection\Hands\HandJointsPose.cs">
+      <Link>Runtime\Scripts\Selection\Hands\HandJointsPose.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Utils\SurfaceUtils.cs">
+      <Link>Runtime\Scripts\Utils\SurfaceUtils.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Grabbable\TwoGrabFreeTransformer.cs">
+      <Link>Runtime\Scripts\Interaction\Grabbable\TwoGrabFreeTransformer.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\DistanceGrab\Visuals\ReticleMeshDrawer.cs">
+      <Link>Runtime\Scripts\DistanceGrab\Visuals\ReticleMeshDrawer.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Grab\Visuals\GrabStrengthIndicator.cs">
+      <Link>Runtime\Scripts\Grab\Visuals\GrabStrengthIndicator.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Models\Locomotion\Visuals\LocomotionGateUnityEventWrapper.cs">
+      <Link>Runtime\Scripts\Interaction\Models\Locomotion\Visuals\LocomotionGateUnityEventWrapper.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Polyline\DebugGizmos.cs">
+      <Link>Runtime\Scripts\Polyline\DebugGizmos.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\PoseDetection\Debug\TransformRecognizerDebugVisual.cs">
+      <Link>Runtime\Scripts\PoseDetection\Debug\TransformRecognizerDebugVisual.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Pointable\PointerInteractor.cs">
+      <Link>Runtime\Scripts\Interaction\Pointable\PointerInteractor.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Body\PoseDetection\IBodyPose.cs">
+      <Link>Runtime\Scripts\Body\PoseDetection\IBodyPose.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Grab\Visuals\HandPuppet.cs">
+      <Link>Runtime\Scripts\Grab\Visuals\HandPuppet.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Unity\PointableCanvasUnityEventWrapper.cs">
+      <Link>Runtime\Scripts\Unity\PointableCanvasUnityEventWrapper.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Grab\ControllerPinchInjector.cs">
+      <Link>Runtime\Scripts\Grab\ControllerPinchInjector.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\PoseDetection\Debug\ActiveStateDebugTree.cs">
+      <Link>Runtime\Scripts\PoseDetection\Debug\ActiveStateDebugTree.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Visuals\HandConfidenceVisual.cs">
+      <Link>Runtime\Scripts\Interaction\Visuals\HandConfidenceVisual.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Selection\Hands\HandWristOffset.cs">
+      <Link>Runtime\Scripts\Selection\Hands\HandWristOffset.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\HandGlow\HandGrabGlow.cs">
+      <Link>Runtime\Scripts\HandGlow\HandGrabGlow.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Core\ActiveStateSelector.cs">
+      <Link>Runtime\Scripts\Interaction\Core\ActiveStateSelector.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Core\IInteractor.cs">
+      <Link>Runtime\Scripts\Interaction\Core\IInteractor.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Core\UniqueIdentifier.cs">
+      <Link>Runtime\Scripts\Interaction\Core\UniqueIdentifier.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Grab\FingerRawPinchInjector.cs">
+      <Link>Runtime\Scripts\Grab\FingerRawPinchInjector.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Pointable\PointableElement.cs">
+      <Link>Runtime\Scripts\Interaction\Pointable\PointableElement.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\PoseDetection\ShapeRecognizer.cs">
+      <Link>Runtime\Scripts\PoseDetection\ShapeRecognizer.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Utils\NativeMethods.cs">
+      <Link>Runtime\Scripts\Utils\NativeMethods.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Core\InteractableTriggerBroadcaster.cs">
+      <Link>Runtime\Scripts\Interaction\Core\InteractableTriggerBroadcaster.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Input\ITrackingToWorldTransformer.cs">
+      <Link>Runtime\Scripts\Input\ITrackingToWorldTransformer.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Models\TouchHandGrab\TouchShadowHand.cs">
+      <Link>Runtime\Scripts\Interaction\Models\TouchHandGrab\TouchShadowHand.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Core\ControllerActiveState.cs">
+      <Link>Runtime\Scripts\Interaction\Core\ControllerActiveState.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Body\Input\Body.cs">
+      <Link>Runtime\Scripts\Body\Input\Body.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\PoseDetection\FingerShapes.cs">
+      <Link>Runtime\Scripts\PoseDetection\FingerShapes.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Core\IGameObjectFilter.cs">
+      <Link>Runtime\Scripts\Interaction\Core\IGameObjectFilter.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Grabbable\TwoGrabRotateTransformer.cs">
+      <Link>Runtime\Scripts\Interaction\Grabbable\TwoGrabRotateTransformer.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Selection\Hands\HandJoint.cs">
+      <Link>Runtime\Scripts\Selection\Hands\HandJoint.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Models\Ray\Visuals\HandRayInteractorCursorVisual.cs">
+      <Link>Runtime\Scripts\Interaction\Models\Ray\Visuals\HandRayInteractorCursorVisual.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\PoseDetection\ColliderContainsHandJointActiveState.cs">
+      <Link>Runtime\Scripts\PoseDetection\ColliderContainsHandJointActiveState.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Pointable\PointerInteractable.cs">
+      <Link>Runtime\Scripts\Interaction\Pointable\PointerInteractable.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\PoseDetection\Debug\JointVelocityDebugVisual.cs">
+      <Link>Runtime\Scripts\PoseDetection\Debug\JointVelocityDebugVisual.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Utils\PoseUtils.cs">
+      <Link>Runtime\Scripts\Utils\PoseUtils.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\DistanceGrab\Visuals\ReticleIconDrawer.cs">
+      <Link>Runtime\Scripts\DistanceGrab\Visuals\ReticleIconDrawer.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Input\Controllers\ControllerButtonUsageActiveState.cs">
+      <Link>Runtime\Scripts\Input\Controllers\ControllerButtonUsageActiveState.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Input\DataModifier.cs">
+      <Link>Runtime\Scripts\Input\DataModifier.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Grab\GrabTypeFlags.cs">
+      <Link>Runtime\Scripts\Grab\GrabTypeFlags.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\PoseDetection\Debug\ActiveStateModel.cs">
+      <Link>Runtime\Scripts\PoseDetection\Debug\ActiveStateModel.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Input\Controllers\Controller.cs">
+      <Link>Runtime\Scripts\Input\Controllers\Controller.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\PoseDetection\Debug\ActiveStateDebugTreeUI.cs">
+      <Link>Runtime\Scripts\PoseDetection\Debug\ActiveStateDebugTreeUI.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Selection\Hands\HandTransformScaler.cs">
+      <Link>Runtime\Scripts\Selection\Hands\HandTransformScaler.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Visuals\InteractorDebugVisual.cs">
+      <Link>Runtime\Scripts\Interaction\Visuals\InteractorDebugVisual.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Models\Snap\SurfaceSnapPoseDelegate.cs">
+      <Link>Runtime\Scripts\Interaction\Models\Snap\SurfaceSnapPoseDelegate.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Utils\VersionTextVisual.cs">
+      <Link>Runtime\Scripts\Utils\VersionTextVisual.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Models\UseGrab\UseFingerControllerAPI.cs">
+      <Link>Runtime\Scripts\Interaction\Models\UseGrab\UseFingerControllerAPI.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Grab\FingerRawPinchAPI.cs">
+      <Link>Runtime\Scripts\Grab\FingerRawPinchAPI.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Input\Hands\HandJointsCache.cs">
+      <Link>Runtime\Scripts\Input\Hands\HandJointsCache.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Grab\FingerPinchGrabAPI.cs">
+      <Link>Runtime\Scripts\Grab\FingerPinchGrabAPI.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\PoseDetection\JointDeltaProvider.cs">
+      <Link>Runtime\Scripts\PoseDetection\JointDeltaProvider.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\HandGlow\HandFingerMaskGenerator.cs">
+      <Link>Runtime\Scripts\HandGlow\HandFingerMaskGenerator.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\DistanceGrab\Visuals\DistantInteractionPolylineVisual.cs">
+      <Link>Runtime\Scripts\DistanceGrab\Visuals\DistantInteractionPolylineVisual.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Extensions\VectorExtensions.cs">
+      <Link>Runtime\Scripts\Extensions\VectorExtensions.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Pointable\PointableDebugGizmos.cs">
+      <Link>Runtime\Scripts\Interaction\Pointable\PointableDebugGizmos.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Models\UseGrab\HandGrabUseInteractable.cs">
+      <Link>Runtime\Scripts\Interaction\Models\UseGrab\HandGrabUseInteractable.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Models\Locomotion\Turn\LocomotionTurnerInteractor.cs">
+      <Link>Runtime\Scripts\Interaction\Models\Locomotion\Turn\LocomotionTurnerInteractor.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Models\UseGrab\Axis1DFingerUseAPI.cs">
+      <Link>Runtime\Scripts\Interaction\Models\UseGrab\Axis1DFingerUseAPI.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Models\HandGrab\HandGrabInteractor.cs">
+      <Link>Runtime\Scripts\Interaction\Models\HandGrab\HandGrabInteractor.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Models\Locomotion\Teleport\TeleportArcGravity.cs">
+      <Link>Runtime\Scripts\Interaction\Models\Locomotion\Teleport\TeleportArcGravity.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Pointable\PointableDebugPolylineGizmos.cs">
+      <Link>Runtime\Scripts\Interaction\Pointable\PointableDebugPolylineGizmos.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Attributes\OptionalAttribute.cs">
+      <Link>Runtime\Scripts\Attributes\OptionalAttribute.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Models\TouchHandGrab\HandSphereMap.cs">
+      <Link>Runtime\Scripts\Interaction\Models\TouchHandGrab\HandSphereMap.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Movements\MoveTowardsTargetProvider.cs">
+      <Link>Runtime\Scripts\Movements\MoveTowardsTargetProvider.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Grab\SnapSurfaces\GrabPoseHelper.cs">
+      <Link>Runtime\Scripts\Grab\SnapSurfaces\GrabPoseHelper.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Visuals\IHandVisual.cs">
+      <Link>Runtime\Scripts\Interaction\Visuals\IHandVisual.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Utils\AssertUtils.cs">
+      <Link>Runtime\Scripts\Utils\AssertUtils.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Body\Input\ISkeletonMapping.cs">
+      <Link>Runtime\Scripts\Body\Input\ISkeletonMapping.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Collisions\IsPointWithinCollider.cs">
+      <Link>Runtime\Scripts\Collisions\IsPointWithinCollider.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Surfaces\CylinderSurface.cs">
+      <Link>Runtime\Scripts\Interaction\Surfaces\CylinderSurface.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Input\Axis1DPrioritySelector.cs">
+      <Link>Runtime\Scripts\Input\Axis1DPrioritySelector.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Core\ActiveStateNot.cs">
+      <Link>Runtime\Scripts\Interaction\Core\ActiveStateNot.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Body\Input\BodyJointsCache.cs">
+      <Link>Runtime\Scripts\Body\Input\BodyJointsCache.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Selection\Hands\IndexPinchSelector.cs">
+      <Link>Runtime\Scripts\Selection\Hands\IndexPinchSelector.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Input\Controllers\ControllerRef.cs">
+      <Link>Runtime\Scripts\Input\Controllers\ControllerRef.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Unity\Input\InputAxis.cs">
+      <Link>Runtime\Scripts\Unity\Input\InputAxis.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Grabbable\IGrabbable.cs">
+      <Link>Runtime\Scripts\Interaction\Grabbable\IGrabbable.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Grab\HandGrabAPI.cs">
+      <Link>Runtime\Scripts\Grab\HandGrabAPI.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\DistanceGrab\Visuals\TubeRenderer.cs">
+      <Link>Runtime\Scripts\DistanceGrab\Visuals\TubeRenderer.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\DistanceGrab\Visuals\ReticleDataGhost.cs">
+      <Link>Runtime\Scripts\DistanceGrab\Visuals\ReticleDataGhost.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Unity\PhysicsGrabbable.cs">
+      <Link>Runtime\Scripts\Unity\PhysicsGrabbable.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\PoseDetection\Sequence.cs">
+      <Link>Runtime\Scripts\PoseDetection\Sequence.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Unity\PointableCanvas.cs">
+      <Link>Runtime\Scripts\Unity\PointableCanvas.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Models\HandGrab\PoseMeasureParameters.cs">
+      <Link>Runtime\Scripts\Interaction\Models\HandGrab\PoseMeasureParameters.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Grab\SnapSurfaces\IGrabSurface.cs">
+      <Link>Runtime\Scripts\Grab\SnapSurfaces\IGrabSurface.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Models\UseGrab\UseFingerRawPinchAPI.cs">
+      <Link>Runtime\Scripts\Interaction\Models\UseGrab\UseFingerRawPinchAPI.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Models\Locomotion\LocomotionGate.cs">
+      <Link>Runtime\Scripts\Interaction\Models\Locomotion\LocomotionGate.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\PoseDetection\TransformFeatureStateThresholds.cs">
+      <Link>Runtime\Scripts\PoseDetection\TransformFeatureStateThresholds.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Unity\UnityCanvas\CanvasCylinder.cs">
+      <Link>Runtime\Scripts\Unity\UnityCanvas\CanvasCylinder.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Surfaces\ISurfaceClipper.cs">
+      <Link>Runtime\Scripts\Interaction\Surfaces\ISurfaceClipper.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Grab\IFingerAPI.cs">
+      <Link>Runtime\Scripts\Grab\IFingerAPI.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Surfaces\CylinderClipper.cs">
+      <Link>Runtime\Scripts\Interaction\Surfaces\CylinderClipper.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Collisions\IsSphereWithinCollider.cs">
+      <Link>Runtime\Scripts\Collisions\IsSphereWithinCollider.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Surfaces\PlaneSurface.cs">
+      <Link>Runtime\Scripts\Interaction\Surfaces\PlaneSurface.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Core\IRelativeToRef.cs">
+      <Link>Runtime\Scripts\Interaction\Core\IRelativeToRef.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Models\HandGrab\HandGrabResult.cs">
+      <Link>Runtime\Scripts\Interaction\Models\HandGrab\HandGrabResult.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Throw\IThrowVelocityCalculator.cs">
+      <Link>Runtime\Scripts\Throw\IThrowVelocityCalculator.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Visuals\SelectorDebugVisual.cs">
+      <Link>Runtime\Scripts\Interaction\Visuals\SelectorDebugVisual.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Models\Snap\ISnapPoseDelegate.cs">
+      <Link>Runtime\Scripts\Interaction\Models\Snap\ISnapPoseDelegate.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Unity\PointableUnityEventWrapper.cs">
+      <Link>Runtime\Scripts\Unity\PointableUnityEventWrapper.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Shapes\CylinderSegment.cs">
+      <Link>Runtime\Scripts\Shapes\CylinderSegment.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Visuals\BecomeChildOfTargetOnStart.cs">
+      <Link>Runtime\Scripts\Interaction\Visuals\BecomeChildOfTargetOnStart.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Grabbable\Grabbable.cs">
+      <Link>Runtime\Scripts\Interaction\Grabbable\Grabbable.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\PoseDetection\Debug\ActiveStateNodeUIHorizontal.cs">
+      <Link>Runtime\Scripts\PoseDetection\Debug\ActiveStateNodeUIHorizontal.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Core\InteractableRegistry.cs">
+      <Link>Runtime\Scripts\Interaction\Core\InteractableRegistry.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Visuals\HandDebugVisual.cs">
+      <Link>Runtime\Scripts\Interaction\Visuals\HandDebugVisual.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Models\Snap\SnapInteractor.cs">
+      <Link>Runtime\Scripts\Interaction\Models\Snap\SnapInteractor.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\HandGlow\HandRayPinchGlow.cs">
+      <Link>Runtime\Scripts\HandGlow\HandRayPinchGlow.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Surfaces\ISurfacePatch.cs">
+      <Link>Runtime\Scripts\Interaction\Surfaces\ISurfacePatch.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Models\Ray\Visuals\RayInteractorCursorVisual.cs">
+      <Link>Runtime\Scripts\Interaction\Models\Ray\Visuals\RayInteractorCursorVisual.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Core\TagSet.cs">
+      <Link>Runtime\Scripts\Interaction\Core\TagSet.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Selection\Hands\CenterEyeOffset.cs">
+      <Link>Runtime\Scripts\Selection\Hands\CenterEyeOffset.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Utils\ITimeConsumer.cs">
+      <Link>Runtime\Scripts\Utils\ITimeConsumer.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Utils\BoundsExtensions.cs">
+      <Link>Runtime\Scripts\Utils\BoundsExtensions.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Extensions\MonoBehaviourStartExtensions.cs">
+      <Link>Runtime\Scripts\Extensions\MonoBehaviourStartExtensions.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Models\Ray\Visuals\RayInteractorDebugPolylineGizmos.cs">
+      <Link>Runtime\Scripts\Interaction\Models\Ray\Visuals\RayInteractorDebugPolylineGizmos.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Models\Locomotion\ILocomotionEventBroadcaster.cs">
+      <Link>Runtime\Scripts\Interaction\Models\Locomotion\ILocomotionEventBroadcaster.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Core\BestHoverInteractorGroup.cs">
+      <Link>Runtime\Scripts\Interaction\Core\BestHoverInteractorGroup.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Core\SecondaryInteractorConnection.cs">
+      <Link>Runtime\Scripts\Interaction\Core\SecondaryInteractorConnection.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Unity\Input\InputKey.cs">
+      <Link>Runtime\Scripts\Unity\Input\InputKey.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Models\Poke\Visuals\HandPokeLimiterVisual.cs">
+      <Link>Runtime\Scripts\Interaction\Models\Poke\Visuals\HandPokeLimiterVisual.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Unity\RectTransformBoundsClipperDriver.cs">
+      <Link>Runtime\Scripts\Unity\RectTransformBoundsClipperDriver.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Models\HandGrab\HandGrabPose.cs">
+      <Link>Runtime\Scripts\Interaction\Models\HandGrab\HandGrabPose.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Models\HandGrab\IHandGrabInteractable.cs">
+      <Link>Runtime\Scripts\Interaction\Models\HandGrab\IHandGrabInteractable.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Body\PoseDetection\BodyPoseComparerActiveState.cs">
+      <Link>Runtime\Scripts\Body\PoseDetection\BodyPoseComparerActiveState.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Models\HandGrab\GrabPoseScore.cs">
+      <Link>Runtime\Scripts\Interaction\Models\HandGrab\GrabPoseScore.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Throw\RANSACVelocityCalculator.cs">
+      <Link>Runtime\Scripts\Throw\RANSACVelocityCalculator.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Attributes\SectionAttribute.cs">
+      <Link>Runtime\Scripts\Attributes\SectionAttribute.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Models\HandGrab\GrabPoseFinder.cs">
+      <Link>Runtime\Scripts\Interaction\Models\HandGrab\GrabPoseFinder.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\PoseDetection\Debug\ActiveStateDebugVisual.cs">
+      <Link>Runtime\Scripts\PoseDetection\Debug\ActiveStateDebugVisual.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\PoseDetection\Debug\HandShapeDebugVisual.cs">
+      <Link>Runtime\Scripts\PoseDetection\Debug\HandShapeDebugVisual.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\PoseDetection\FeatureDescription.cs">
+      <Link>Runtime\Scripts\PoseDetection\FeatureDescription.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Selection\Hands\ShoulderEstimatePosition.cs">
+      <Link>Runtime\Scripts\Selection\Hands\ShoulderEstimatePosition.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Utils\ProgressCurve.cs">
+      <Link>Runtime\Scripts\Utils\ProgressCurve.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Movements\ObjectPullProvider.cs">
+      <Link>Runtime\Scripts\Movements\ObjectPullProvider.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Models\Locomotion\Turn\LocomotionTurnerInteractorVisual.cs">
+      <Link>Runtime\Scripts\Interaction\Models\Locomotion\Turn\LocomotionTurnerInteractorVisual.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Input\Hands\DataModifiers\HandFilter.cs">
+      <Link>Runtime\Scripts\Input\Hands\DataModifiers\HandFilter.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Input\Hands\HandPhysicsCapsules.cs">
+      <Link>Runtime\Scripts\Input\Hands\HandPhysicsCapsules.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Grab\SnapSurfaces\BezierGrabSurface.cs">
+      <Link>Runtime\Scripts\Grab\SnapSurfaces\BezierGrabSurface.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Core\ISelector.cs">
+      <Link>Runtime\Scripts\Interaction\Core\ISelector.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Models\DistanceGrab\DistanceGrabInteractor.cs">
+      <Link>Runtime\Scripts\Interaction\Models\DistanceGrab\DistanceGrabInteractor.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Models\Locomotion\Teleport\TeleportInteractor.cs">
+      <Link>Runtime\Scripts\Interaction\Models\Locomotion\Teleport\TeleportInteractor.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Input\Hands\FingersMetadata.cs">
+      <Link>Runtime\Scripts\Input\Hands\FingersMetadata.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\AssemblyInfo.cs">
+      <Link>Runtime\AssemblyInfo.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Core\IRigidbodyRef.cs">
+      <Link>Runtime\Scripts\Interaction\Core\IRigidbodyRef.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Pointable\VirtualPointable.cs">
+      <Link>Runtime\Scripts\Interaction\Pointable\VirtualPointable.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\DistanceGrab\Visuals\DistantInteractionLineVisual.cs">
+      <Link>Runtime\Scripts\DistanceGrab\Visuals\DistantInteractionLineVisual.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\DistanceGrab\Visuals\ReticleDataMesh.cs">
+      <Link>Runtime\Scripts\DistanceGrab\Visuals\ReticleDataMesh.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Grab\FingerPalmGrabAPI.cs">
+      <Link>Runtime\Scripts\Grab\FingerPalmGrabAPI.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Grabbable\TwoGrabPlaneTransformer.cs">
+      <Link>Runtime\Scripts\Interaction\Grabbable\TwoGrabPlaneTransformer.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\ThirdParty\InterfaceSupport\InterfaceAttribute.cs">
+      <Link>Runtime\ThirdParty\InterfaceSupport\InterfaceAttribute.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Core\TagSetFilter.cs">
+      <Link>Runtime\Scripts\Interaction\Core\TagSetFilter.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Models\UseGrab\IHandGrabUseDelegate.cs">
+      <Link>Runtime\Scripts\Interaction\Models\UseGrab\IHandGrabUseDelegate.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\PoseDetection\TransformFeatureValueProvider.cs">
+      <Link>Runtime\Scripts\PoseDetection\TransformFeatureValueProvider.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Throw\IPoseInputDevice.cs">
+      <Link>Runtime\Scripts\Throw\IPoseInputDevice.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Movements\IMovementProvider.cs">
+      <Link>Runtime\Scripts\Movements\IMovementProvider.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Shapes\Cylinder.cs">
+      <Link>Runtime\Scripts\Shapes\Cylinder.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Grabbable\OneGrabFreeTransformer.cs">
+      <Link>Runtime\Scripts\Interaction\Grabbable\OneGrabFreeTransformer.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Grabbable\OneGrabTranslateTransformer.cs">
+      <Link>Runtime\Scripts\Interaction\Grabbable\OneGrabTranslateTransformer.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Models\Snap\SequentialSlotsProvider.cs">
+      <Link>Runtime\Scripts\Interaction\Models\Snap\SequentialSlotsProvider.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Input\Hands\ShadowHand.cs">
+      <Link>Runtime\Scripts\Input\Hands\ShadowHand.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Utils\TransformerUtils.cs">
+      <Link>Runtime\Scripts\Utils\TransformerUtils.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Models\Locomotion\Teleport\Visuals\ReticleDataTeleport.cs">
+      <Link>Runtime\Scripts\Interaction\Models\Locomotion\Teleport\Visuals\ReticleDataTeleport.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Core\SecondaryInteractorFilter.cs">
+      <Link>Runtime\Scripts\Interaction\Core\SecondaryInteractorFilter.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Collisions\IsCapsuleWithinColliderApprox.cs">
+      <Link>Runtime\Scripts\Collisions\IsCapsuleWithinColliderApprox.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Surfaces\NavMeshSurface.cs">
+      <Link>Runtime\Scripts\Interaction\Surfaces\NavMeshSurface.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\MaterialProperties\MaterialPropertyBlockEditor.cs">
+      <Link>Runtime\Scripts\MaterialProperties\MaterialPropertyBlockEditor.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Core\ActiveStateGate.cs">
+      <Link>Runtime\Scripts\Interaction\Core\ActiveStateGate.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Input\Controllers\ControllerVisual.cs">
+      <Link>Runtime\Scripts\Input\Controllers\ControllerVisual.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Input\Controllers\ControllerDataAsset.cs">
+      <Link>Runtime\Scripts\Input\Controllers\ControllerDataAsset.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Input\OneEuroFilter\OneEuroFilterPropertyBlock.cs">
+      <Link>Runtime\Scripts\Input\OneEuroFilter\OneEuroFilterPropertyBlock.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Unity\ActiveStateUnityEventWrapper.cs">
+      <Link>Runtime\Scripts\Unity\ActiveStateUnityEventWrapper.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Grab\SnapSurfaces\ColliderGrabSurface.cs">
+      <Link>Runtime\Scripts\Grab\SnapSurfaces\ColliderGrabSurface.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Input\Hands\HandDataSourceConfig.cs">
+      <Link>Runtime\Scripts\Input\Hands\HandDataSourceConfig.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Core\UpdateDriverAfterDataSource.cs">
+      <Link>Runtime\Scripts\Interaction\Core\UpdateDriverAfterDataSource.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Utils\ConeUtils.cs">
+      <Link>Runtime\Scripts\Utils\ConeUtils.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Grab\Visuals\HandGrabStateVisual.cs">
+      <Link>Runtime\Scripts\Grab\Visuals\HandGrabStateVisual.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Models\HandGrab\HandGrabTarget.cs">
+      <Link>Runtime\Scripts\Interaction\Models\HandGrab\HandGrabTarget.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Visuals\HandVisual.cs">
+      <Link>Runtime\Scripts\Interaction\Visuals\HandVisual.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Unity\RigidbodyKinematicLocker.cs">
+      <Link>Runtime\Scripts\Unity\RigidbodyKinematicLocker.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Input\OneEuroFilter\FilteredTransform.cs">
+      <Link>Runtime\Scripts\Input\OneEuroFilter\FilteredTransform.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Input\Hands\DataModifiers\JointRotationHistoryHand.cs">
+      <Link>Runtime\Scripts\Input\Hands\DataModifiers\JointRotationHistoryHand.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Surfaces\CircleSurface.cs">
+      <Link>Runtime\Scripts\Interaction\Surfaces\CircleSurface.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Models\Snap\ListSnapPoseDelegate.cs">
+      <Link>Runtime\Scripts\Interaction\Models\Snap\ListSnapPoseDelegate.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Throw\HandPoseInputDevice.cs">
+      <Link>Runtime\Scripts\Throw\HandPoseInputDevice.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Input\IAxis1D.cs">
+      <Link>Runtime\Scripts\Input\IAxis1D.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Pointable\IPointable.cs">
+      <Link>Runtime\Scripts\Interaction\Pointable\IPointable.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Visuals\InteractableColorVisual.cs">
+      <Link>Runtime\Scripts\Interaction\Visuals\InteractableColorVisual.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Input\Hands\DataModifiers\LastKnownGoodHand.cs">
+      <Link>Runtime\Scripts\Input\Hands\DataModifiers\LastKnownGoodHand.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Selection\Hands\HandPinchOffset.cs">
+      <Link>Runtime\Scripts\Selection\Hands\HandPinchOffset.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Core\MultiAction.cs">
+      <Link>Runtime\Scripts\Interaction\Core\MultiAction.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Models\DistanceHandGrab\DistanceHandGrabInteractor.cs">
+      <Link>Runtime\Scripts\Interaction\Models\DistanceHandGrab\DistanceHandGrabInteractor.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Models\Locomotion\ILocomotionEventHandler.cs">
+      <Link>Runtime\Scripts\Interaction\Models\Locomotion\ILocomotionEventHandler.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Models\Locomotion\LocomotionEvent.cs">
+      <Link>Runtime\Scripts\Interaction\Models\Locomotion\LocomotionEvent.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Input\IButton.cs">
+      <Link>Runtime\Scripts\Input\IButton.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Models\HandGrab\IHandGrabInteractor.cs">
+      <Link>Runtime\Scripts\Interaction\Models\HandGrab\IHandGrabInteractor.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Body\PoseDetection\BodyPoseComparerActiveStateDebugVisual.cs">
+      <Link>Runtime\Scripts\Body\PoseDetection\BodyPoseComparerActiveStateDebugVisual.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Collections\EnumerableHashSet.cs">
+      <Link>Runtime\Scripts\Collections\EnumerableHashSet.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\PoseDetection\Debug\ActiveStateNodeUIVertical.cs">
+      <Link>Runtime\Scripts\PoseDetection\Debug\ActiveStateNodeUIVertical.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Input\Controllers\ControllerHandDataSource.cs">
+      <Link>Runtime\Scripts\Input\Controllers\ControllerHandDataSource.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Input\Controllers\ControllerDataSourceConfig.cs">
+      <Link>Runtime\Scripts\Input\Controllers\ControllerDataSourceConfig.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Models\Locomotion\Turn\TurnerEventBroadcaster.cs">
+      <Link>Runtime\Scripts\Interaction\Models\Locomotion\Turn\TurnerEventBroadcaster.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Grab\Visuals\HandJointMap.cs">
+      <Link>Runtime\Scripts\Grab\Visuals\HandJointMap.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Input\OneEuroFilter\OneEuroFilter.cs">
+      <Link>Runtime\Scripts\Input\OneEuroFilter\OneEuroFilter.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Visuals\InteractorGroupDebugTreeUI.cs">
+      <Link>Runtime\Scripts\Interaction\Visuals\InteractorGroupDebugTreeUI.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Core\InteractableState.cs">
+      <Link>Runtime\Scripts\Interaction\Core\InteractableState.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\PoseDetection\FingerFeatureStateProvider.cs">
+      <Link>Runtime\Scripts\PoseDetection\FingerFeatureStateProvider.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Unity\SelectorUnityEventWrapper.cs">
+      <Link>Runtime\Scripts\Unity\SelectorUnityEventWrapper.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Input\OneEuroFilter\HandFilterParameterBlock.cs">
+      <Link>Runtime\Scripts\Input\OneEuroFilter\HandFilterParameterBlock.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Selection\Controllers\ControllerPointerPose.cs">
+      <Link>Runtime\Scripts\Selection\Controllers\ControllerPointerPose.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Body\Input\BodyDataAsset.cs">
+      <Link>Runtime\Scripts\Body\Input\BodyDataAsset.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Unity\UnityCanvas\CanvasMeshRenderer.cs">
+      <Link>Runtime\Scripts\Unity\UnityCanvas\CanvasMeshRenderer.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Models\DistanceGrab\DistanceGrabInteractable.cs">
+      <Link>Runtime\Scripts\Interaction\Models\DistanceGrab\DistanceGrabInteractable.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Input\Hands\IHandSkeletonProvider.cs">
+      <Link>Runtime\Scripts\Input\Hands\IHandSkeletonProvider.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Models\Locomotion\Teleport\Visuals\TeleportReticleDrawer.cs">
+      <Link>Runtime\Scripts\Interaction\Models\Locomotion\Teleport\Visuals\TeleportReticleDrawer.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Models\TouchHandGrab\IHandSphereMap.cs">
+      <Link>Runtime\Scripts\Interaction\Models\TouchHandGrab\IHandSphereMap.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Input\Axis1DSwitch.cs">
+      <Link>Runtime\Scripts\Input\Axis1DSwitch.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Pointable\PointableDebugVisual.cs">
+      <Link>Runtime\Scripts\Interaction\Pointable\PointableDebugVisual.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Throw\IVelocityCalculator.cs">
+      <Link>Runtime\Scripts\Throw\IVelocityCalculator.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Core\ActiveStateTracker.cs">
+      <Link>Runtime\Scripts\Interaction\Core\ActiveStateTracker.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Models\Locomotion\Teleport\TeleportInteractable.cs">
+      <Link>Runtime\Scripts\Interaction\Models\Locomotion\Teleport\TeleportInteractable.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Models\Ray\Visuals\RayInteractorDebugGizmos.cs">
+      <Link>Runtime\Scripts\Interaction\Models\Ray\Visuals\RayInteractorDebugGizmos.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\PoseDetection\FeatureStateProvider.cs">
+      <Link>Runtime\Scripts\PoseDetection\FeatureStateProvider.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Body\BodyDebugGizmos.cs">
+      <Link>Runtime\Scripts\Body\BodyDebugGizmos.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Surfaces\IClippedSurface.cs">
+      <Link>Runtime\Scripts\Interaction\Surfaces\IClippedSurface.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Input\HMD\HmdDataSourceConfig.cs">
+      <Link>Runtime\Scripts\Input\HMD\HmdDataSourceConfig.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\PoseDetection\ShapeRecognizerActiveState.cs">
+      <Link>Runtime\Scripts\PoseDetection\ShapeRecognizerActiveState.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Models\DistanceHandGrab\DistanceHandGrabInteractable.cs">
+      <Link>Runtime\Scripts\Interaction\Models\DistanceHandGrab\DistanceHandGrabInteractable.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Selection\Hands\FingerPinchValue.cs">
+      <Link>Runtime\Scripts\Selection\Hands\FingerPinchValue.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Core\CandidateComparer.cs">
+      <Link>Runtime\Scripts\Interaction\Core\CandidateComparer.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Models\Poke\PokeInteractor.cs">
+      <Link>Runtime\Scripts\Interaction\Models\Poke\PokeInteractor.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Input\Controllers\IController.cs">
+      <Link>Runtime\Scripts\Input\Controllers\IController.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Polyline\PolylineRenderer.cs">
+      <Link>Runtime\Scripts\Polyline\PolylineRenderer.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Extensions\TransformExtensions.cs">
+      <Link>Runtime\Scripts\Extensions\TransformExtensions.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Input\HMD\HmdRef.cs">
+      <Link>Runtime\Scripts\Input\HMD\HmdRef.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Movements\IMovement.cs">
+      <Link>Runtime\Scripts\Movements\IMovement.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\DistanceGrab\Visuals\InteractorReticle.cs">
+      <Link>Runtime\Scripts\DistanceGrab\Visuals\InteractorReticle.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Models\Ray\RayInteractable.cs">
+      <Link>Runtime\Scripts\Interaction\Models\Ray\RayInteractable.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Models\TouchHandGrab\TouchHandGrabInteractor.cs">
+      <Link>Runtime\Scripts\Interaction\Models\TouchHandGrab\TouchHandGrabInteractor.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Throw\ControllerPoseInputDevice.cs">
+      <Link>Runtime\Scripts\Throw\ControllerPoseInputDevice.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\PoseDetection\Debug\JointRotationDebugVisual.cs">
+      <Link>Runtime\Scripts\PoseDetection\Debug\JointRotationDebugVisual.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Attributes\ConditionalHideAttribute.cs">
+      <Link>Runtime\Scripts\Attributes\ConditionalHideAttribute.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Selection\Hands\HandPointerPose.cs">
+      <Link>Runtime\Scripts\Selection\Hands\HandPointerPose.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Unity\UnityCanvas\UpdateCanvasSortingOrder.cs">
+      <Link>Runtime\Scripts\Unity\UnityCanvas\UpdateCanvasSortingOrder.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Models\TouchHandGrab\TouchHandGrabInteractorVisual.cs">
+      <Link>Runtime\Scripts\Interaction\Models\TouchHandGrab\TouchHandGrabInteractorVisual.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Core\ICollidersRef.cs">
+      <Link>Runtime\Scripts\Interaction\Core\ICollidersRef.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Models\HandGrab\HandGrabInteractable.cs">
+      <Link>Runtime\Scripts\Interaction\Models\HandGrab\HandGrabInteractable.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\PoseDetection\Debug\TransformFeatureVectorDebugVisual.cs">
+      <Link>Runtime\Scripts\PoseDetection\Debug\TransformFeatureVectorDebugVisual.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Visuals\DebugTreeUI.cs">
+      <Link>Runtime\Scripts\Interaction\Visuals\DebugTreeUI.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Unity\ToggleDeselect.cs">
+      <Link>Runtime\Scripts\Unity\ToggleDeselect.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Input\Controllers\SyntheticControllerInHand.cs">
+      <Link>Runtime\Scripts\Input\Controllers\SyntheticControllerInHand.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Unity\UnityCanvas\CanvasRenderTexture.cs">
+      <Link>Runtime\Scripts\Unity\UnityCanvas\CanvasRenderTexture.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\PoseDetection\FingerFeatureStateProviderRef.cs">
+      <Link>Runtime\Scripts\PoseDetection\FingerFeatureStateProviderRef.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Input\HMD\Hmd.cs">
+      <Link>Runtime\Scripts\Input\HMD\Hmd.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Core\ActiveStateToggle.cs">
+      <Link>Runtime\Scripts\Interaction\Core\ActiveStateToggle.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Input\Hands\HandDataAsset.cs">
+      <Link>Runtime\Scripts\Input\Hands\HandDataAsset.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Selection\Controllers\ControllerOffset.cs">
+      <Link>Runtime\Scripts\Selection\Controllers\ControllerOffset.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Models\HandGrab\HandGrabInteraction.cs">
+      <Link>Runtime\Scripts\Interaction\Models\HandGrab\HandGrabInteraction.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Models\HandGrab\HandGrabUtils.cs">
+      <Link>Runtime\Scripts\Interaction\Models\HandGrab\HandGrabUtils.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Core\InteractorState.cs">
+      <Link>Runtime\Scripts\Interaction\Core\InteractorState.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Models\Grab\Tween.cs">
+      <Link>Runtime\Scripts\Interaction\Models\Grab\Tween.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Grab\Visuals\HandGhost.cs">
+      <Link>Runtime\Scripts\Grab\Visuals\HandGhost.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Polyline\PolylineGizmos.cs">
+      <Link>Runtime\Scripts\Polyline\PolylineGizmos.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Models\Locomotion\Teleport\Visuals\TeleportArcVisual.cs">
+      <Link>Runtime\Scripts\Interaction\Models\Locomotion\Teleport\Visuals\TeleportArcVisual.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Shapes\ICurvedPlane.cs">
+      <Link>Runtime\Scripts\Shapes\ICurvedPlane.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\DistanceGrab\IDistanceInteractor.cs">
+      <Link>Runtime\Scripts\DistanceGrab\IDistanceInteractor.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Grabbable\OneGrabRotateTransformer.cs">
+      <Link>Runtime\Scripts\Interaction\Grabbable\OneGrabRotateTransformer.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\PoseDetection\FingerFeatureProperties.cs">
+      <Link>Runtime\Scripts\PoseDetection\FingerFeatureProperties.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Shapes\CylinderOrientation.cs">
+      <Link>Runtime\Scripts\Shapes\CylinderOrientation.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Surfaces\ISurface.cs">
+      <Link>Runtime\Scripts\Interaction\Surfaces\ISurface.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\PoseDetection\JointDeltaProviderRef.cs">
+      <Link>Runtime\Scripts\PoseDetection\JointDeltaProviderRef.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\DistanceGrab\Visuals\ReticleGhostDrawer.cs">
+      <Link>Runtime\Scripts\DistanceGrab\Visuals\ReticleGhostDrawer.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\PoseDetection\FeatureConfigBuilder.cs">
+      <Link>Runtime\Scripts\PoseDetection\FeatureConfigBuilder.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\DistanceGrab\DistantPointDetector.cs">
+      <Link>Runtime\Scripts\DistanceGrab\DistantPointDetector.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Input\DataSource.cs">
+      <Link>Runtime\Scripts\Input\DataSource.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\PoseDetection\IFeatureStateThreshold.cs">
+      <Link>Runtime\Scripts\PoseDetection\IFeatureStateThreshold.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\PoseDetection\Debug\TransformFeatureDebugVisual.cs">
+      <Link>Runtime\Scripts\PoseDetection\Debug\TransformFeatureDebugVisual.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Input\OneEuroFilter\OneEuroFilterFactory.cs">
+      <Link>Runtime\Scripts\Input\OneEuroFilter\OneEuroFilterFactory.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Surfaces\IPolyline.cs">
+      <Link>Runtime\Scripts\Interaction\Surfaces\IPolyline.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\PoseDetection\HmdOffset.cs">
+      <Link>Runtime\Scripts\PoseDetection\HmdOffset.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Input\Controllers\IControllerDataModifier.cs">
+      <Link>Runtime\Scripts\Input\Controllers\IControllerDataModifier.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Core\IInteractable.cs">
+      <Link>Runtime\Scripts\Interaction\Core\IInteractable.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Core\BestSelectInteractorGroup.cs">
+      <Link>Runtime\Scripts\Interaction\Core\BestSelectInteractorGroup.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Surfaces\BoundsClipper.cs">
+      <Link>Runtime\Scripts\Interaction\Surfaces\BoundsClipper.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Throw\StandardVelocityCalculator.cs">
+      <Link>Runtime\Scripts\Throw\StandardVelocityCalculator.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Unity\PointableCanvasMesh.cs">
+      <Link>Runtime\Scripts\Unity\PointableCanvasMesh.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Extensions\HashSetExtensions.cs">
+      <Link>Runtime\Scripts\Extensions\HashSetExtensions.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Movements\PoseTravelData.cs">
+      <Link>Runtime\Scripts\Movements\PoseTravelData.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Movements\MoveFromTargetProvider.cs">
+      <Link>Runtime\Scripts\Movements\MoveFromTargetProvider.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Models\HandGrab\HandPose.cs">
+      <Link>Runtime\Scripts\Interaction\Models\HandGrab\HandPose.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Body\Input\BodySkeletonMapping.cs">
+      <Link>Runtime\Scripts\Body\Input\BodySkeletonMapping.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Grab\Visuals\HandGhostProvider.cs">
+      <Link>Runtime\Scripts\Grab\Visuals\HandGhostProvider.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Core\FirstHoverInteractorGroup.cs">
+      <Link>Runtime\Scripts\Interaction\Core\FirstHoverInteractorGroup.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Body\Input\IBody.cs">
+      <Link>Runtime\Scripts\Body\Input\IBody.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Models\Poke\PokeInteractable.cs">
+      <Link>Runtime\Scripts\Interaction\Models\Poke\PokeInteractable.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Models\Locomotion\Teleport\Visuals\ActiveStateFingerVisual.cs">
+      <Link>Runtime\Scripts\Interaction\Models\Locomotion\Teleport\Visuals\ActiveStateFingerVisual.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Models\Ray\RayInteractor.cs">
+      <Link>Runtime\Scripts\Interaction\Models\Ray\RayInteractor.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Unity\UnityCanvas\RenderingMode.cs">
+      <Link>Runtime\Scripts\Unity\UnityCanvas\RenderingMode.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\PoseDetection\SequenceActiveState.cs">
+      <Link>Runtime\Scripts\PoseDetection\SequenceActiveState.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Surfaces\IBounds.cs">
+      <Link>Runtime\Scripts\Interaction\Surfaces\IBounds.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\PoseDetection\TransformFeatureStateProviderRef.cs">
+      <Link>Runtime\Scripts\PoseDetection\TransformFeatureStateProviderRef.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Surfaces\ClippedPlaneSurface.cs">
+      <Link>Runtime\Scripts\Interaction\Surfaces\ClippedPlaneSurface.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Core\ActiveStateGroup.cs">
+      <Link>Runtime\Scripts\Interaction\Core\ActiveStateGroup.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Unity\InteractorUnityEventWrapper.cs">
+      <Link>Runtime\Scripts\Unity\InteractorUnityEventWrapper.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\PoseDetection\TransformFeatureStateProvider.cs">
+      <Link>Runtime\Scripts\PoseDetection\TransformFeatureStateProvider.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Unity\PointableCanvasModule.cs">
+      <Link>Runtime\Scripts\Unity\PointableCanvasModule.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\HandGlow\HandPokeOvershootGlow.cs">
+      <Link>Runtime\Scripts\HandGlow\HandPokeOvershootGlow.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Surfaces\AxisAlignedBox.cs">
+      <Link>Runtime\Scripts\Interaction\Surfaces\AxisAlignedBox.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Models\Snap\Visuals\SnapInteractorFollowVisual.cs">
+      <Link>Runtime\Scripts\Interaction\Models\Snap\Visuals\SnapInteractorFollowVisual.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Grab\SnapSurfaces\CylinderGrabSurface.cs">
+      <Link>Runtime\Scripts\Grab\SnapSurfaces\CylinderGrabSurface.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Grabbable\GrabFreeTransformer.cs">
+      <Link>Runtime\Scripts\Interaction\Grabbable\GrabFreeTransformer.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Movements\MoveAtSourceProvider.cs">
+      <Link>Runtime\Scripts\Movements\MoveAtSourceProvider.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Body\PoseDetection\BodyPoseDebugGizmos.cs">
+      <Link>Runtime\Scripts\Body\PoseDetection\BodyPoseDebugGizmos.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Core\ICandidatePosition.cs">
+      <Link>Runtime\Scripts\Interaction\Core\ICandidatePosition.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Core\Axis2DActiveState.cs">
+      <Link>Runtime\Scripts\Interaction\Core\Axis2DActiveState.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\DistanceGrab\Visuals\DistantInteractionLineRendererVisual.cs">
+      <Link>Runtime\Scripts\DistanceGrab\Visuals\DistantInteractionLineRendererVisual.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\PoseDetection\JointDistanceActiveState.cs">
+      <Link>Runtime\Scripts\PoseDetection\JointDistanceActiveState.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Input\Hands\Hand.cs">
+      <Link>Runtime\Scripts\Input\Hands\Hand.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\DistanceGrab\Visuals\ReticleDataIcon.cs">
+      <Link>Runtime\Scripts\DistanceGrab\Visuals\ReticleDataIcon.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Models\HandGrab\IHandGrabState.cs">
+      <Link>Runtime\Scripts\Interaction\Models\HandGrab\IHandGrabState.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Collisions\ColliderGroup.cs">
+      <Link>Runtime\Scripts\Collisions\ColliderGroup.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Grab\GrabbingRule.cs">
+      <Link>Runtime\Scripts\Grab\GrabbingRule.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Core\CollisionInteractionRegistry.cs">
+      <Link>Runtime\Scripts\Interaction\Core\CollisionInteractionRegistry.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\PoseDetection\TransformFeatureProperties.cs">
+      <Link>Runtime\Scripts\PoseDetection\TransformFeatureProperties.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Core\InteractableGroup.cs">
+      <Link>Runtime\Scripts\Interaction\Core\InteractableGroup.cs</Link>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Resources\Shaders\Imposter_AlphaCutout.shader">
+      <Link>Runtime\Resources\Shaders\Imposter_AlphaCutout.shader</Link>
+    </None>
+    <None Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\ThirdParty\Shaders\CapsuleRayIntersect.cginc">
+      <Link>Runtime\ThirdParty\Shaders\CapsuleRayIntersect.cginc</Link>
+    </None>
+    <None Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\ThirdParty\InterfaceSupport\LICENSE.txt">
+      <Link>Runtime\ThirdParty\InterfaceSupport\LICENSE.txt</Link>
+    </None>
+    <None Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Shaders\UnlitTransparentColor.shader">
+      <Link>Runtime\Shaders\UnlitTransparentColor.shader</Link>
+    </None>
+    <None Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Resources\Shaders\Imposter_AlphaBlended.shader">
+      <Link>Runtime\Resources\Shaders\Imposter_AlphaBlended.shader</Link>
+    </None>
+    <None Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Shaders\OculusControllerRayShader.shader">
+      <Link>Runtime\Shaders\OculusControllerRayShader.shader</Link>
+    </None>
+    <None Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Resources\Shaders\Imposter_Underlay_AA.shader">
+      <Link>Runtime\Resources\Shaders\Imposter_Underlay_AA.shader</Link>
+    </None>
+    <None Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Shaders\OculusHandOutlineCG.cginc">
+      <Link>Runtime\Shaders\OculusHandOutlineCG.cginc</Link>
+    </None>
+    <None Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Resources\Shaders\Imposter_Underlay.shader">
+      <Link>Runtime\Resources\Shaders\Imposter_Underlay.shader</Link>
+    </None>
+    <None Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Resources\Shaders\Imposter_Opaque.shader">
+      <Link>Runtime\Resources\Shaders\Imposter_Opaque.shader</Link>
+    </None>
+    <None Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Plugins\Win64\InteractionSdk.dll">
+      <Link>Runtime\Plugins\Win64\InteractionSdk.dll</Link>
+    </None>
+    <None Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Shaders\Locomotion\Hotspot.shader">
+      <Link>Runtime\Shaders\Locomotion\Hotspot.shader</Link>
+    </None>
+    <None Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Shaders\DotGridUnlit.shader">
+      <Link>Runtime\Shaders\DotGridUnlit.shader</Link>
+    </None>
+    <None Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\ThirdParty\Box2DSignedDistance.cginc">
+      <Link>Runtime\ThirdParty\Box2DSignedDistance.cginc</Link>
+    </None>
+    <None Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Resources\Shaders\DepthOverwrite.shader">
+      <Link>Runtime\Resources\Shaders\DepthOverwrite.shader</Link>
+    </None>
+    <None Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Shaders\OculusHandCursor.shader">
+      <Link>Runtime\Shaders\OculusHandCursor.shader</Link>
+    </None>
+    <None Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Shaders\OculusHandFillCG.cginc">
+      <Link>Runtime\Shaders\OculusHandFillCG.cginc</Link>
+    </None>
+    <None Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Resources\Shaders\UnderlayTransparentOccluderImposter.shader">
+      <Link>Runtime\Resources\Shaders\UnderlayTransparentOccluderImposter.shader</Link>
+    </None>
+    <None Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Shaders\OculusHand.shader">
+      <Link>Runtime\Shaders\OculusHand.shader</Link>
+    </None>
+    <None Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Shaders\Locomotion\TransparentVertexTexture.shader">
+      <Link>Runtime\Shaders\Locomotion\TransparentVertexTexture.shader</Link>
+    </None>
+    <None Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Shaders\RoundedBoxUnlit.shader">
+      <Link>Runtime\Shaders\RoundedBoxUnlit.shader</Link>
+    </None>
+    <None Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Oculus.Interaction.asmdef">
+      <Link>Runtime\Oculus.Interaction.asmdef</Link>
+    </None>
+    <None Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Shaders\PolylineUnlit.shader">
+      <Link>Runtime\Shaders\PolylineUnlit.shader</Link>
+    </None>
+    <None Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Resources\Shaders\UIOverlay.shader">
+      <Link>Runtime\Resources\Shaders\UIOverlay.shader</Link>
+    </None>
+    <None Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Shaders\UIStyleShader.shader">
+      <Link>Runtime\Shaders\UIStyleShader.shader</Link>
+    </None>
+    <None Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Shaders\CubePointToSegment.cginc">
+      <Link>Runtime\Shaders\CubePointToSegment.cginc</Link>
+    </None>
+    <None Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Resources\Shaders\Imposter_AlphaToMask.shader">
+      <Link>Runtime\Resources\Shaders\Imposter_AlphaToMask.shader</Link>
+    </None>
+    <None Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Plugins\Win32\InteractionSdk.dll">
+      <Link>Runtime\Plugins\Win32\InteractionSdk.dll</Link>
+    </None>
+    <None Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Shaders\GlowFunctions.cginc">
+      <Link>Runtime\Shaders\GlowFunctions.cginc</Link>
+    </None>
+    <None Include="C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\ThirdParty\LeapMotion\LICENSE-2.0.txt">
+      <Link>Runtime\ThirdParty\LeapMotion\LICENSE-2.0.txt</Link>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\Managed\UnityEngine\UnityEngine.AIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\Managed\UnityEngine\UnityEngine.ARModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\Managed\UnityEngine\UnityEngine.AccessibilityModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AndroidJNIModule">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\Managed\UnityEngine\UnityEngine.AndroidJNIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\Managed\UnityEngine\UnityEngine.AnimationModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\Managed\UnityEngine\UnityEngine.AssetBundleModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\Managed\UnityEngine\UnityEngine.AudioModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClothModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ContentLoadModule">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\Managed\UnityEngine\UnityEngine.ContentLoadModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\Managed\UnityEngine\UnityEngine.CrashReportingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.DSPGraphModule">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\Managed\UnityEngine\UnityEngine.DSPGraphModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\Managed\UnityEngine\UnityEngine.DirectorModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GIModule">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\Managed\UnityEngine\UnityEngine.GIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\Managed\UnityEngine\UnityEngine.GameCenterModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\Managed\UnityEngine\UnityEngine.GridModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.HotReloadModule">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\Managed\UnityEngine\UnityEngine.HotReloadModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\Managed\UnityEngine\UnityEngine.IMGUIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\Managed\UnityEngine\UnityEngine.ImageConversionModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\Managed\UnityEngine\UnityEngine.InputModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\Managed\UnityEngine\UnityEngine.InputLegacyModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\Managed\UnityEngine\UnityEngine.JSONSerializeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.LocalizationModule">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\Managed\UnityEngine\UnityEngine.LocalizationModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\Managed\UnityEngine\UnityEngine.ParticleSystemModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\Managed\UnityEngine\UnityEngine.PerformanceReportingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\Managed\UnityEngine\UnityEngine.PhysicsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\Managed\UnityEngine\UnityEngine.Physics2DModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ProfilerModule">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\Managed\UnityEngine\UnityEngine.ProfilerModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PropertiesModule">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\Managed\UnityEngine\UnityEngine.PropertiesModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\Managed\UnityEngine\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\Managed\UnityEngine\UnityEngine.ScreenCaptureModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\Managed\UnityEngine\UnityEngine.SharedInternalsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteMaskModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteShapeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.StreamingModule">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\Managed\UnityEngine\UnityEngine.StreamingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SubstanceModule">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\Managed\UnityEngine\UnityEngine.SubstanceModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SubsystemsModule">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\Managed\UnityEngine\UnityEngine.SubsystemsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TLSModule">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\Managed\UnityEngine\UnityEngine.TLSModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainPhysicsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreFontEngineModule">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextCoreFontEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreTextEngineModule">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextCoreTextEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextRenderingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\Managed\UnityEngine\UnityEngine.TilemapModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIElementsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UmbraModule">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\Managed\UnityEngine\UnityEngine.UmbraModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityAnalyticsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsCommonModule">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityAnalyticsCommonModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityConnectModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityCurlModule">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityCurlModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityTestProtocolModule">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityTestProtocolModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VFXModule">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\Managed\UnityEngine\UnityEngine.VFXModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\Managed\UnityEngine\UnityEngine.VRModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\Managed\UnityEngine\UnityEngine.VehiclesModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\Managed\UnityEngine\UnityEngine.VideoModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\Managed\UnityEngine\UnityEngine.WindModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.XRModule">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\Managed\UnityEngine\UnityEngine.XRModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\Managed\UnityEngine\UnityEditor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.CoreModule">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\Managed\UnityEngine\UnityEditor.CoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.DeviceSimulatorModule">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\Managed\UnityEngine\UnityEditor.DeviceSimulatorModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.DiagnosticsModule">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\Managed\UnityEngine\UnityEditor.DiagnosticsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.EditorToolbarModule">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\Managed\UnityEngine\UnityEditor.EditorToolbarModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.GraphViewModule">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\Managed\UnityEngine\UnityEditor.GraphViewModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.PresetsUIModule">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\Managed\UnityEngine\UnityEditor.PresetsUIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.QuickSearchModule">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\Managed\UnityEngine\UnityEditor.QuickSearchModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SceneTemplateModule">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\Managed\UnityEngine\UnityEditor.SceneTemplateModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SceneViewModule">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\Managed\UnityEngine\UnityEditor.SceneViewModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.TextCoreFontEngineModule">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\Managed\UnityEngine\UnityEditor.TextCoreFontEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.TextCoreTextEngineModule">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\Managed\UnityEngine\UnityEditor.TextCoreTextEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UIBuilderModule">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIBuilderModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UIElementsModule">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UIElementsSamplesModule">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsSamplesModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UnityConnectModule">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.Graphs">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\Managed\UnityEditor.Graphs.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.Android.Extensions">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\PlaybackEngines\AndroidPlayer\UnityEditor.Android.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.YamlDotNet">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="unityplastic">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.4.4\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Plastic.Antlr3.Runtime">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.4.4\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="websocket-sharp">
+      <HintPath>Assets\Photon\PhotonLibs\WebSocket\websocket-sharp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Fusion.Common">
+      <HintPath>Assets\Photon\Fusion\Assemblies\Fusion.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="NanoSockets">
+      <HintPath>Assets\Photon\Fusion\Plugins\NanoSockets\NanoSockets\Dynamic\NanoSockets.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Fusion.Sockets">
+      <HintPath>Assets\Photon\Fusion\Assemblies\Fusion.Sockets.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Plastic.Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.4.4\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="log4netPlastic">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.4.4\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.IonicZip">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Fusion.Runtime">
+      <HintPath>Assets\Photon\Fusion\Assemblies\Fusion.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.4\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Photon3Unity3D">
+      <HintPath>Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1\Runtime\Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.TextureAssets">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Mono.Cecil">
+      <HintPath>Library\PackageCache\com.unity.nuget.mono-cecil@1.11.4\Mono.Cecil.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Fusion.Realtime">
+      <HintPath>Assets\Photon\Fusion\Assemblies\Fusion.Realtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Fusion.Log">
+      <HintPath>Assets\Photon\Fusion\Assemblies\Fusion.Log.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Android.Types">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Android.Gradle">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Gradle.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Android.GradleProject">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.GradleProject.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="netstandard">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\Microsoft.Win32.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.AppContext">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.AppContext.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Buffers">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Buffers.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections.Concurrent">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.Concurrent.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections.NonGeneric">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.NonGeneric.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections.Specialized">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.Specialized.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.EventBasedAsync">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.EventBasedAsync.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.Primitives">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.TypeConverter">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.TypeConverter.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Console">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Console.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data.Common">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Data.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Contracts">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Contracts.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Debug">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Debug.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.FileVersionInfo">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.FileVersionInfo.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Process">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Process.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.StackTrace">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.StackTrace.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.TextWriterTraceListener">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tools">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Tools.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.TraceSource">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.TraceSource.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tracing">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Tracing.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing.Primitives">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Drawing.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Dynamic.Runtime">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Dynamic.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Globalization.Calendars">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.Calendars.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Globalization">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Globalization.Extensions">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Compression.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression.ZipFile">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Compression.ZipFile.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.DriveInfo">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.DriveInfo.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Watcher">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.Watcher.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.IsolatedStorage">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.IsolatedStorage.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.MemoryMappedFiles">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.MemoryMappedFiles.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Pipes">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Pipes.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.UnmanagedMemoryStream">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.UnmanagedMemoryStream.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq.Expressions">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Expressions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq.Parallel">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Parallel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq.Queryable">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Queryable.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Memory">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Memory.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Http.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.NameResolution">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.NameResolution.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.NetworkInformation">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.NetworkInformation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Ping">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Ping.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Primitives">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Requests">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Requests.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Security">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Security.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Sockets">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Sockets.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.WebHeaderCollection">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebHeaderCollection.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.WebSockets.Client">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebSockets.Client.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.WebSockets">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebSockets.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Numerics.Vectors.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ObjectModel">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ObjectModel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.DispatchProxy">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.DispatchProxy.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Emit">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.ILGeneration">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.ILGeneration.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.Lightweight">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.Lightweight.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Extensions">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Primitives">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Resources.Reader">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.Reader.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Resources.ResourceManager">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.ResourceManager.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Resources.Writer">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.Writer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.VisualC">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.CompilerServices.VisualC.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Handles">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Handles.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.InteropServices.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Numerics">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Numerics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Formatters.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Json">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Primitives">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Xml">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Xml.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Claims">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Claims.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Algorithms.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Csp">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Csp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Encoding.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.X509Certificates.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Principal">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Principal.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.SecureString">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.SecureString.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.Encoding">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.Encoding.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.Encoding.Extensions">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.Encoding.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.RegularExpressions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Overlapped">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Overlapped.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Parallel">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.Parallel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Thread">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Thread.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.ThreadPool">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.ThreadPool.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Timer">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Timer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ValueTuple">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ValueTuple.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.ReaderWriter">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.ReaderWriter.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XDocument">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XDocument.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XmlDocument">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XmlDocument.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XmlSerializer">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XmlSerializer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XPath">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XPath.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XPath.XDocument">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XPath.XDocument.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\Extensions\2.0.0\System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="mscorlib">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\mscorlib.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ComponentModel.Composition.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Data.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Drawing.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.IO.Compression.FileSystem.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Numerics">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Numerics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Runtime.Serialization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ServiceModel.Web">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ServiceModel.Web.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Transactions">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Transactions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Web">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Web.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Windows">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Windows.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Linq.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Serialization">
+      <HintPath>D:\MySoftware\Unity Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />
+  <ItemGroup>
+    <ProjectCapability Remove="LaunchProfiles" />
+    <ProjectCapability Remove="SharedProjectReferences" />
+    <ProjectCapability Remove="ReferenceManagerSharedProjects" />
+    <ProjectCapability Remove="ProjectReferences" />
+    <ProjectCapability Remove="ReferenceManagerProjects" />
+    <ProjectCapability Remove="COMReferences" />
+    <ProjectCapability Remove="ReferenceManagerCOM" />
+    <ProjectCapability Remove="AssemblyReferences" />
+    <ProjectCapability Remove="ReferenceManagerAssemblies" />
+  </ItemGroup>
+</Project>

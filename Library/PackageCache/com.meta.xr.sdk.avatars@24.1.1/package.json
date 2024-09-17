@@ -1,0 +1,35 @@
+{
+  "name": "com.meta.xr.sdk.avatars",
+  "displayName": "Meta Avatars SDK",
+  "version": "24.1.1",
+  "description": "With the Meta Avatars SDK, create highly expressive, diverse, and customizable avatar identities for the Meta ecosystem, Unity VR apps, and other multiplayer experiences.",
+  "unity": "2021.3",
+  "keywords": [
+    "Meta",
+    "Avatars",
+    "SDK"
+  ],
+  "dependencies": {
+    "com.meta.xr.sdk.platform": "59.0.0",
+    "com.unity.modules.jsonserialize": "1.0.0",
+    "com.unity.xr.legacyinputhelpers": "2.1.9",
+    "com.unity.ugui": "1.0.0",
+    "com.unity.textmeshpro": "3.0.6"
+  },
+  "samples": [
+    {
+      "displayName": "Sample Scenes",
+      "description": "Contains Meta Avatars Unity SDK samples, this includes code, scenes, materials...",
+      "path": "Samples~"
+    }
+  ],
+  "unityRelease": "29f1",
+  "author": {
+    "name": "Meta Platforms, Inc.",
+    "url": "https://developer.oculus.com/"
+  },
+  "documentationUrl": "https://developer.oculus.com/downloads/package/meta-avatars-sdk",
+  "changelogUrl": "https://developer.oculus.com/downloads/package/meta-avatars-sdk",
+  "licensesUrl": "https://developer.oculus.com/licenses",
+  "licenseMessage": "By adding or using this package you agree to the terms and conditions of the Meta Platforms Technologies SDK License Agreement: https://developer.oculus.com/licenses"
+}

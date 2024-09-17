@@ -1,0 +1,6 @@
+C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Input\Hands\HandPhysicsCapsules.cs(91,13): warning CS0618: 'HandPhysicsCapsules.HandVisual' is obsolete: 'Replaced by Hand'
+C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Input\Hands\HandPhysicsCapsules.cs(91,26): warning CS0618: 'HandPhysicsCapsules._handVisual' is obsolete: 'Replaced by _hand'
+C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Input\Hands\HandPhysicsCapsules.cs(98,33): warning CS0618: 'HandPhysicsCapsules.HandVisual' is obsolete: 'Replaced by Hand'
+C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Input\Hands\HandPhysicsCapsules.cs(100,24): warning CS0618: 'HandPhysicsCapsules.HandVisual' is obsolete: 'Replaced by Hand'
+C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Interaction\Core\InteractableTriggerBroadcaster.cs(95,17): warning CS0618: 'Physics.autoSimulation' is obsolete: 'Physics.autoSimulation has been replaced by Physics.simulationMode'
+C:\Users\THINKPAD\Downloads\com.meta.xr.sdk.interaction-63.0.0\package\Runtime\Scripts\Body\PoseDetection\BodyPoseData.cs(61,21): warning CS0414: The field 'BodyPoseData._serializedVersion' is assigned but its value is never used
